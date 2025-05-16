@@ -1,0 +1,135 @@
+.block-content{
+	border: 2px dashed #d3d2d2;
+	border-radius: 4px;
+	min-height: 100px;
+    padding: 10px 10px 20px;
+    position: relative;
+	margin:0 0 20px 0;
+	transition: border 0.5s;
+	box-sizing:border-box;
+}
+.block-content:hover{
+	border: 2px dashed #929ba1;
+}
+.block-content .block-content-body .block-content-block{
+	vertical-align:top;
+	border-radius: 4px;
+	color: #3f4b54;
+    cursor: pointer;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+	line-height:29px;
+    font-weight: bold;
+    height: 29px;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.7);
+	text-align:center;
+	vertical-align:middle;
+	padding:0;
+	margin:0 0 10px 0;
+	border: 1px dashed #929ba1;
+	position:relative;
+	opacity:0.75;
+	transition: opacity 0.5s;
+	box-sizing:border-box;
+}
+.block-content .block-content-body .block-content-block.active{
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.3), 0 1px 0 #fff inset, 0 0 1px rgba(255, 255, 255, 0.5) inset;
+	border:none;
+	height:auto;
+	text-align:left;
+	font-size: 13px;
+	line-height: 15px;
+	padding: 10px 30px;
+	box-sizing:border-box;
+	min-height:60px;
+}
+.block-content .block-content-body .block-content-block:hover{
+	opacity:1;
+}
+.block-content .block-content-body .block-content-block .block-content-remove{
+	position:absolute;
+	right:10px;
+	top:10px;
+	background: url("../img/fileinput-sprite.png") -29px -26px no-repeat;
+    content: "";
+    height: 15px;
+    width: 10px;
+	opacity: 0.5;
+	cursor:pointer;
+	transition: opacity 0.5s;
+}
+.block-content .block-content-body .block-content-block .block-content-remove:hover{
+	opacity:1;
+}
+.block-content .block-content-body .block-content-block .block-content-handle{
+	position:absolute;
+	left:0;
+	top:0;
+	width:20px;
+	height:100%;
+	opacity: 0.5;
+	cursor:pointer;
+	background:#E0E8EA;
+	transition: opacity 0.5s;
+}
+.block-content .block-content-body .block-content-block .block-content-handle:hover{
+	opacity:1;
+}
+.block-content .block-content-body .block-content-plus{
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	vertical-align:top;
+	height:100px;
+	width:20%;
+	cursor:pointer;
+	opacity:0.75;
+	border: 1px dashed #929ba1;
+	overflow:hidden;
+	transition: opacity 0.5s;
+	box-sizing:border-box;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.7);
+	text-align:center;
+	vertical-align:middle;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+	line-height:100px;
+    font-weight: bold;
+	border-radius: 4px;
+	color: #3f4b54;
+	margin: 0 10px 10px 0;
+}
+.block-content .block-content-body .block-content-plus:hover{
+	opacity:1;
+}
+.portlet-placeholder {
+	border: 1px dotted black;
+	margin: 0 1em 1em 0;
+	height: 50px;
+}
+.block-content-select {
+	margin-bottom: 15px !important;
+}
+#bx-admin-prefix .adm-detail-content-item-block table.block-content-table{
+	margin-bottom: 20px;
+}
+.block-content-table td {
+	vertical-align: top;
+}
+.block-content label {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.block-content-video-holder {
+	padding-left: 20px;
+}
+
+
+.block-content-data,
+.block-content-data input,
+.block-content-data textarea,
+.block-content-data select
+{
+	vertical-align: middle;
+	margin-bottom: 0 !important;
+}
